@@ -1,5 +1,5 @@
 # 🎬 Biography of Abid_Hasan 
-This Repository was made for Hosting A Sample Website (HTML, CSS Based)
+This Repository was created for Hosting A Sample Website (HTML, CSS Based)
 
 This Web Element is © Copyright_Free. 
 Just Download the RAW index.html and Import in VSCode. Change The Element as Your Needs.
