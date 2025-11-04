@@ -96,11 +96,23 @@
     </header>
 
     <section id="about">
-        <h2>ありがとう！はじめまして</h2>
+        <h2><span id="typed-line"></span></h2>
+
+<!-- Typed.js library -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!-- Initialize Typed.js -->
+<script>
+  new Typed("#typed-line", {
+    strings: ["ありがとう！はじめまして"], // The text to type
+    typeSpeed: 80,       
+    backSpeed: 0,        
+    showCursor: false,    
+    loop: false          
+  });
+</script>
         <p>
-            
-           
-        </p>
+      </p>
         <img src= "https://raw.githubusercontent.com/abid076/biography/refs/heads/main/image.png" width="410" height="300" >
     </section>
 
