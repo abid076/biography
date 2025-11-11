@@ -1,4 +1,3 @@
-# 🎬 Biography of Abid_Hasan 
 This Repository was created for Hosting A Sample Website (HTML, CSS Based) 
 
 This Web Element is Open-Source. 
