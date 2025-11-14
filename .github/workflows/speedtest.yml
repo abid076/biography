@@ -1,0 +1,19 @@
+name: Speedtest CLI
+
+on:
+  workflow_dispatch:  # allows manual run
+
+jobs:
+  speedtest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Speedtest CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl gnupg
+          curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+          sudo apt-get install -y speedtest
+
+      - name: Run Speedtest
+        run: |
+          speedtest --accept-license --accept-gdpr￼Enter
